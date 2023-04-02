@@ -1,0 +1,20 @@
+doctype html
+html 
+    head 
+        title Welcome to Mist's Dance Academy
+        block scripts
+        block style
+    body    
+        nav#navbar
+            div#logo
+                img(src="/static/images/logo.png")
+            ul 
+                li #[a(href='/') Home]
+                li #[a(href='/') About]
+                li #[a(href='/') Packages]
+                li #[a(href='/contact') Contact Us]
+
+        block content 
+
+        footer#footer 
+            | Copyright &copy;  2023. All rights Reserved.

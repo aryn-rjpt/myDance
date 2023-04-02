@@ -1,0 +1,7 @@
+extends base.pug
+
+block content
+    h1 This is about page
+    form(method='post' action='/about')
+        input(type='text' class='myInput' name='name1' placeholder="Enter your name")
+        button.btn.myInput(type="submit") Submit

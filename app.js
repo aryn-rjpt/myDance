@@ -7,7 +7,7 @@ const port = 80
 app.set('views', path.join(__dirname, 'views'))
 app.set('view-engine', 'pug')
 app.use('/static', express.static('static'))
-app.use(express.urlencoded())
+// app.use(express.urlencoded())
 
 
 

@@ -1,0 +1,51 @@
+extends base.pug
+
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+
+block content
+    
+    section#intro 
+        div  Welcome to Mist's Dance Academy 
+        div #[h5 Eat sleep Dance Repeat]
+    
+    section#sponsors 
+        h1 Our Sponsors 
+        div.sponsLogo
+            div.sponsor#s1
+                img(src='/static/images/s1.png')
+            div.sponsor#s2
+                img(src='static/images/s2.png')
+            div.sponsor#s3
+                img(src='static/images/s3.png')
+            div.sponsor#s4
+                img(src='static/images/s4.png')
+    
+    section#mission 
+        h1 Our Mission 
+        div.card
+            h3 Express through Dance
+            div.card-box
+                div.card-img
+                    img(src='static/images/1.png' alt="sponsor-image")
+                div.card-content
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ullam iusto ratione!
+        div.card
+            h3 Impress through Dance
+            div.card-box
+                div.card-img
+                    img(src='static/images/2.png' alt="sponsor-image")
+                div.card-content
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ullam iusto ratione!
+        div.card
+            h3 Enhance your steps
+            div.card-box
+                div.card-img
+                    img(src='static/images/3.png' alt="sponsor-image")
+                div.card-content
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ullam iusto ratione!

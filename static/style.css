@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo img{
+    width: 40px;
+    height: 40px;
+}
+
+#navbar{
+    display: flex;
+    width: 100%;
+    background: #03a9f4;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1vh;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 7px 11px;
+    color: white;
+    font-size: 0.8rem;
+}
+
+#navbar li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#intro {
+    background: #000 url('/static/images/bg.jpg') no-repeat center center fixed;
+    height: 50vw;
+    color: white;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 8vw;
+}
+
+#intro h5{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+#sponsors {
+    text-align: center;
+    background-color: #aadbf1;
+    height: 30vw;
+    padding: 3vw;
+    font-size: 2rem;
+}
+
+#mission {
+    text-align: center;
+    height: 40vw;
+    padding: 3vw;
+    font-size: 2rem;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10%;
+    width: 23vw;
+    display: inline-block;
+    margin: 1vw 3vw;
+    padding: 1.5vw;
+    font-size: 0.5em;
+}
+
+.sponsLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsor img {
+    width: 19vw;
+    height: 17vw;
+}
+
+.card-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-img img{
+    width: 15vw;
+    height: 20vw;
+    margin-top: 1vw;
+}
+
+
+
+#footer {
+    height: 2vw;
+    text-align: center;
+    font-size: 1rem;
+    background: #03a9f4;
+    padding-top: 0.5vw;
+}
